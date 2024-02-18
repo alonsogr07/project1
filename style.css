@@ -43,15 +43,33 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 100px 220px;
+    gap:60px;
+}
+
+.container div {
+    flex: 1;
+    
 }
 
 .top-img {
     color: #E5E7EB;
+    background-color: gray;
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top-img div {
+    text-align: center;
 }
 
 .hero-text{
     display: flex;
     flex-direction: column;
+    gap: 5px
 }
 
 .hero-title {
@@ -63,11 +81,9 @@ li {
 .hero-subtext {
     color: #E5E7EB;
     font-size: 18px;
+    align-self: flex-start;
 }
 
-.top-img {
-    background-color: gray;
-}
 
 
 
